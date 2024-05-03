@@ -61,10 +61,10 @@ header {
 .dowload > p {
   margin: 30px auto;
 }
-
-
-
 /* css main */
+main{
+  margin-top: 5%;
+}
 main > .main-box {
   display: flex;
   flex-direction: row;
@@ -114,27 +114,14 @@ main > .end-main{
 .end-main p{
   margin: 20px auto;
 }
-/* .end-main .star{
-   background-image: url(../img/stars.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 44%; 
-} */
-
-.star::before{
+ .star>svg{
   position: relative;
-  content: url(../img/stars.svg);
-  top: 9px;
-
-  
-}
-  /* height: 50px; */
+  top: 20px;
+ }
  .end-main  h3{
   position: relative;
   margin-bottom: 30px;
-  
 }
-
 /*  regolo bottoni main and footer */
 .end-main .circle,
 .end .circle {
@@ -144,8 +131,6 @@ main > .end-main{
   border: none;
   padding: 10px;
 }
-
-
 /* wave */
 .wave> svg{
   fill: rgb(233, 223, 223);
@@ -204,9 +189,7 @@ footer li {
   margin: 10% auto;
   color: white;
 }
-
 /* css footer end */
-
 .end {
   display: flex;
   justify-content: space-between;
