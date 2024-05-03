@@ -11,7 +11,7 @@ a {
   text-decoration: none;
   color: white;
 }
-.circle{
+.circle {
   color: black;
   padding: 5px;
   border-radius: 25px;
@@ -24,7 +24,7 @@ a {
 header {
   background-color: rgb(14, 143, 143);
   font-size: larger;
-  background-image:url(../img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -57,64 +57,92 @@ header {
   text-align: center;
   color: white;
 }
-.dowload > p{
-  margin:30px auto;
+.dowload > p {
+  margin: 30px auto;
 }
 
 .dowload > a:nth-of-type(2) {
   color: white;
-  background-color:rgb(35, 39, 42);
+  background-color: rgb(35, 39, 42);
 }
 /* css main */
 main > .main-box {
   display: flex;
   flex-direction: row;
-  align-items:stretch
+  align-items: stretch;
+}
+main > section {
+  margin: 5% auto;
+  padding: 0 20%;
 }
 main > section:nth-of-type(even) {
   background-color: rgb(204, 201, 201);
 }
-.main-box > div { 
+.main-box > div {
   padding-right: 20%;
   width: 40%;
-  background-color: aqua;
-  border: 1px solid black;
-  
 }
 .main-box > .pic {
-  background-color: green;
+  background-image: url(../img/item1.svg);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 60%;
-  height: 150px;
+  height: 200px;
+}
+.main-box > .server {
+  background-image: url(../img/item2.svg);
+  background-position: left;
+}
+.main-box > .fandom {
+  background-image: url(../img/item3.svg);
 }
 .main-box:nth-of-type(2) {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; 
 }
-.main-box>.reverse{
+.main-box > .reverse {
   padding-left: 20%;
   padding-right: 0;
-
 }
 /*  end section main */
-.end-main > div {
-  text-align: center;
+main > .end-main{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+   text-align: center; 
 }
-.end-main p,
-.end-main img {
-  margin: 20px 20%;
+/*
+.end-main  p,
+.end-main  img {
+  margin: 20px 25%;
   font-size: medium;
 }
-.end-main h3,
-.end-main button {
-  margin-bottom: 20px;
+.end-main  img{
+  a
+} */
+.end-main h2,
+.end-main p{
+  margin: 20px auto;
 }
+.end-main  h3 {
+  margin-bottom: 30px;
+}
+
+/*  regolo bottoni main and footer */
 .end-main .circle,
 .end .circle {
   color: white;
   background-color: rgb(142, 161, 225);
   border-radius: 25px;
   border: none;
-  padding: 10px; 
+  padding: 10px;
 }
+
+
+
+
+
 /*  wave background  
  .wave { 
     position: relative; 
@@ -135,6 +163,9 @@ main > section:nth-of-type(even) {
 .wave:nth-of-type(even) {
   transform: rotate(180deg);
 } */
+
+
+
 /* css footer 
  css info-page general */
 .info-page {
