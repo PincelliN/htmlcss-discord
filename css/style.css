@@ -24,6 +24,10 @@ a {
 header {
   background-color: rgb(14, 143, 143);
   font-size: larger;
+  background-image:url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .login {
   color: white;
@@ -35,7 +39,7 @@ header {
   width: 20%;
 }
 .login > .info {
-  width: 60%;
+  width: 50%;
 }
 .info > ul {
   list-style: none;
@@ -49,7 +53,7 @@ header {
 /*  seconda section header */
 
 .dowload {
-  margin: 0 25%;
+  margin: 7% 25%;
   text-align: center;
   color: white;
 }
