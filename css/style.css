@@ -71,7 +71,6 @@ main > .main-box {
   align-items: stretch;
 }
 main > section {
-  margin: 5% auto;
   padding: 0 20%;
 }
 main > section:nth-of-type(even) {
@@ -115,16 +114,27 @@ main > .end-main{
 .end-main p{
   margin: 20px auto;
 }
-.end-main .star{
+/* .end-main .star{
    background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 44%; 
-}
-.end-main  h3 {
-  /* height: 50px; */
+} */
+
+.star::before{
+  position: absolute;
+  content: url(../img/stars.svg);
+  left: 34%;
+  bottom: -359%;
  
+
+  
+}
+  /* height: 50px; */
+ .end-main  h3{
+  position: relative;
   margin-bottom: 30px;
+  
 }
 
 /*  regolo bottoni main and footer */
@@ -141,10 +151,13 @@ main > .end-main{
 
 
 
-/*  wave background  
- .wave { 
-    position: relative; 
- background-color: rgb(246, 246, 246);
+
+
+
+/* /*  wave background   */
+/*  .wave { 
+  position: relative; 
+  fill-rule: ;
   background: url(../img/wave.svg);
   height: 100px;
 } 
@@ -157,10 +170,13 @@ main > .end-main{
   height: 100%;
   background: url(../img/wave.png);
   background-repeat: no-repeat;
-} 
-.wave:nth-of-type(even) {
-  transform: rotate(180deg);
-} */
+}   */
+/* .wave:nth-of-type(even) {
+  transform: rotate(180deg);}
+
+ */
+
+
 
 
 
