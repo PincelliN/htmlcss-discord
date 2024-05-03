@@ -68,22 +68,31 @@ header {
 /* css main */
 main > .main-box {
   display: flex;
+  flex-direction: row;
+  align-items:stretch
 }
 main > section:nth-of-type(even) {
   background-color: rgb(204, 201, 201);
 }
-.main-box > div {
+.main-box > div { 
+  padding-right: 20%;
   width: 40%;
   background-color: aqua;
   border: 1px solid black;
+  
 }
-.main-box > .descrition {
+.main-box > .pic {
   background-color: green;
   width: 60%;
   height: 150px;
 }
 .main-box:nth-of-type(2) {
   flex-direction: row-reverse;
+}
+.main-box>.reverse{
+  padding-left: 20%;
+  padding-right: 0;
+
 }
 /*  end section main */
 .end-main > div {
