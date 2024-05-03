@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 section {
   padding: 15px 30px;
@@ -62,7 +62,7 @@ header {
   margin: 30px auto;
 }
 /* css main */
-main{
+main {
   margin-top: 5%;
 }
 main > .main-box {
@@ -96,30 +96,31 @@ main > section:nth-of-type(even) {
   background-image: url(../img/item3.svg);
 }
 .main-box:nth-of-type(2) {
-  flex-direction: row-reverse; 
+  flex-direction: row-reverse;
 }
 .main-box > .reverse {
   padding-left: 20%;
   padding-right: 0;
 }
 /*  end section main */
-main > .end-main{
+main > .end-main {
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
   padding-bottom: 30px;
-   text-align: center; 
+  text-align: center;
 }
+
 .end-main h2,
-.end-main p{
+.end-main p {
   margin: 20px auto;
 }
- .star>svg{
+
+.star > svg {
   position: relative;
   top: 20px;
- }
- .end-main  h3{
-  position: relative;
+}
+.end-main h3 {
   margin-bottom: 30px;
 }
 /*  regolo bottoni main and footer */
@@ -132,13 +133,14 @@ main > .end-main{
   padding: 10px;
 }
 /* wave */
-.wave> svg{
+.wave > svg {
   fill: rgb(233, 223, 223);
   position: relative;
   bottom: -4px;
 }
- .wave:nth-of-type(even) {
-  transform: rotate(180deg);}
+.wave:nth-of-type(even) {
+  transform: rotate(180deg);
+}
 /* css footer 
  css info-page general */
 .info-page {
@@ -207,7 +209,7 @@ footer li {
   color: white;
   background-color: rgb(35, 39, 42);
 }
-.circle:active{
+.circle:active {
   background-color: red;
   color: darkgoldenrod;
 }
