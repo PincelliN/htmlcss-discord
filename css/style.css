@@ -76,7 +76,7 @@ main > section {
   padding: 0 20%;
 }
 main > section:nth-of-type(even) {
-  background-color: rgb(204, 201, 201);
+  background-color: rgb(233, 223, 223);
 }
 .main-box > div {
   padding-right: 20%;
@@ -112,20 +112,19 @@ main > .end-main{
   padding-bottom: 30px;
    text-align: center; 
 }
-/*
-.end-main  p,
-.end-main  img {
-  margin: 20px 25%;
-  font-size: medium;
-}
-.end-main  img{
-  a
-} */
 .end-main h2,
 .end-main p{
   margin: 20px auto;
 }
+.end-main .star{
+   background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 44%; 
+}
 .end-main  h3 {
+  /* height: 50px; */
+ 
   margin-bottom: 30px;
 }
 
