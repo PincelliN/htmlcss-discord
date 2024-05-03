@@ -122,11 +122,9 @@ main > .end-main{
 } */
 
 .star::before{
-  position: absolute;
+  position: relative;
   content: url(../img/stars.svg);
-  left: 34%;
-  bottom: -359%;
- 
+  top: 9px;
 
   
 }
@@ -148,38 +146,14 @@ main > .end-main{
 }
 
 
-
-
-
-
-
-
-/* /*  wave background   */
-/*  .wave { 
-  position: relative; 
-  fill-rule: ;
-  background: url(../img/wave.svg);
-  height: 100px;
-} 
- .wave:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../img/wave.png);
-  background-repeat: no-repeat;
-}   */
-/* .wave:nth-of-type(even) {
+/* wave */
+.wave> svg{
+  fill: rgb(233, 223, 223);
+  position: relative;
+  bottom: -4px;
+}
+ .wave:nth-of-type(even) {
   transform: rotate(180deg);}
-
- */
-
-
-
-
-
 /* css footer 
  css info-page general */
 .info-page {
