@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 section {
   padding: 15px 30px;
@@ -61,10 +62,8 @@ header {
   margin: 30px auto;
 }
 
-.dowload > a:nth-of-type(2) {
-  color: white;
-  background-color: rgb(35, 39, 42);
-}
+
+
 /* css main */
 main > .main-box {
   display: flex;
@@ -230,4 +229,12 @@ footer li {
   border-radius: 25px;
   padding: 5px;
   background-color: rgb(142, 161, 225);
+}
+.circle:hover {
+  color: white;
+  background-color: rgb(35, 39, 42);
+}
+.circle:active{
+  background-color: red;
+  color: darkgoldenrod;
 }
