@@ -4,10 +4,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
+  
 }
 a{
     text-decoration: none;
+    color:rgb(75, 75, 252);
 }
 /* css body and general conteiner */
 body {
@@ -21,10 +22,75 @@ body {
     background-color: rgb(35, 39, 42);
     margin: 0 auto;
     width: 40%;
+    height: 100vh;
+    padding-top: 20px;
+    
 }
 /* header css */
 header{
     text-align: center;
+    color: white;
 }
-
+/* main list */
+main ul{
+    color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 80vh;
+    padding: 0 20px;
+    list-style: none;
+}
+input,
+select
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(35, 39, 42);
+    border: 1px solid white;
+     border-radius: 25px;
+    color: white;
+    margin-top: 5px;
+}
+select{
+    width: calc((100% / 3) - 3px);
+}
+/* checkbox */
+#new-letter,
+#privacy{
+    width: 5%;
+    height: 20px;
+    background-color: rgb(35, 39, 42);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+label{
+    margin-left: 5px;
+}
+/* botton circle */
+.circle {
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: rgb(142, 161, 225);
+  width: 100%;
+  height: 30px;
+  margin-bottom: 0;
+}
+.circle:hover {
+  background-color: rgb(35, 39, 42);
+  border: 1px solid white;
+}
+.circle > a{
+    color: white;
+}
+/* footer */
+footer{
+    margin: 30px 20px;
+}
 

@@ -13,10 +13,11 @@
           <h1>Crea un account</h1>
         </section>
       </header>
+      <!-- lista input select and checkbox -->
       <main>
         <ul>
           <li>
-            <h3>E-MAIL <strong>*</strong></h3>
+            <h3>E-MAIL<strong>*</strong></h3>
             <input type="email" name="" id="" placeholder="es@gmail.com" />
           </li>
           <li>
@@ -24,16 +25,17 @@
             <input type="text" placeholder="Discord90" />
           </li>
           <li>
-            <h3>NOME UTENTE <strong>*</strong></h3>
+            <h3>NOME UTENTE<strong>*</strong></h3>
             <input type="text" placeholder="Gino Pino" />
           </li>
           <li>
-            <h3>PASSWORD <strong>*</strong></h3>
-            <input type="text" />
+            <h3>PASSWORD<strong>*</strong></h3>
+            <input type="text" placeholder="********"/>
           </li>
           <li>
-            <h3>DATA DI NASCITA <strong>*</strong></h3>
-            <select name="Day" id="" aria-placeholder="Giorno">
+            <h3>DATA DI NASCITA<strong>*</strong></h3>
+            <select name="Day" id="">
+              <option value="">DAY</option>
               <option value="day">1</option>
               <option value="day">2</option>
               <option value="day">3</option>
@@ -67,6 +69,7 @@
               <option value="day">31</option>
             </select>
             <select name="Month" id="" aria-placeholder="Mese">
+              <option value="">MONTH</option>
               <option value="month">1</option>
               <option value="month">2</option>
               <option value="month">3</option>
@@ -81,6 +84,7 @@
               <option value="month">12</option>
             </select>
             <select name="Year" id="" aria-placeholder="Anno">
+              <option value="">YEAR</option>
               <option value="year">1991</option>
               <option value="year">1992</option>
               <option value="year">1993</option>
@@ -117,13 +121,21 @@
               <option value="year">2024</option>
             </select>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="check">
+            <input type="checkbox" name="new-letter" id="new-letter">
+            <label for="new-letter">(Facoltativo) Voglio ricevere l'e-mail con aggiornamenti,consigli e offerte.</label>
+          </li>
+          <li class="circle">
+            <a href="#" >Continua</a>
+          </li>
+          <li class="check"> 
+            <input type="checkbox" name="Privacy" id="privacy" required >
+            <label for="Privacy"> Dichiaro di aver letto e di accettare i <a href="°">Termini di Servizio</a>e <a href="#">l'informativa sulla Privacy</a> di Discord</label>
+          </li>
         </ul>
       </main>
       <footer>
-        <section></section>
+        <a href="login.html" target="_blank"> Hai già un account?</a>
       </footer>
     </div>
   </body>
