@@ -5,6 +5,7 @@
   box-sizing: border-box;
   color: white;
   text-decoration: none;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
   background-image: url(../../img/jumbo.png);
@@ -71,14 +72,14 @@ main strong {
   border: 1px solid white;
 }
 /* css footer */
-footer>img{
+footer > img {
   width: 50%;
 }
 footer h2,
 footer p {
-  margin:10px auto ;
+  margin: 10px auto;
 }
-footer i{
+footer i {
   position: relative;
   right: 100px;
   bottom: 68px;
