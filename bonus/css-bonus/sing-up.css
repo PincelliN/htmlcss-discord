@@ -51,6 +51,7 @@ select
      border-radius: 25px;
     color: white;
     margin-top: 5px;
+    padding-left: 5px;
 }
 select{
     width: calc((100% / 3) - 3px);
@@ -95,5 +96,11 @@ strong{
 /* footer */
 footer{
     margin: 30px 20px;
+}
+.nick:hover + .nick-help::before{
+    content: "Questo è il modo in cui ti vedono gli altri.Puoi usare caratteri speciali o Emoji"; 
+}
+.name:hover + .name-help::before{
+    content:"Usa solo numeri ,lettere trattini _ o punti " ;
 }
 
