@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+section {
+  padding: 15px 30px;
+}
+/* rigole generali link */
+a {
+  text-decoration: none;
+  color: white;
+}
+.circle {
+  color: black;
+  padding: 5px;
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: medium;
+}
+/* header css */
+/* prima sezione header */
+header {
+  background-color:  rgb(35, 39, 42);
+  font-size: larger;
+
+}
+.login {
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.login > div {
+  width: 20%;
+}
+.login > .info {
+  width: 50%;
+}
+.info > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.login > .rec {
+  text-align: end;
+}
+/*  seconda section header */
+
+/* css footer 
+ css info-page general */
+.info-page {
+  display: flex;
+}
+.info-page > .language {
+  width: calc((100% / 6) * 2);
+}
+.info-page > div {
+  width: calc(100% / 6);
+}
+footer {
+  background-color: rgb(35, 39, 42);
+}
+/* css language */
+.language {
+  padding: 1% 10%;
+  line-height: 35px;
+}
+.language > h3 {
+  font-size: xx-large;
+  color: rgb(53, 82, 179);
+}
+.language > select {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+}
+.language option {
+  background-color: rgb(35, 39, 42);
+}
+.language > i {
+  color: white;
+  margin-right: 5px;
+  font-size: larger;
+}
+select::after{
+  content: url(../img/ita.png);
+}
+/* footer list */
+footer ul {
+  list-style: none;
+  margin: 5% 25%;
+}
+li > strong {
+  color: rgb(53, 82, 179);
+  font-size: large;
+}
+footer li {
+  margin: 10% auto;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* css footer end */
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+.end .circle {
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: rgb(142, 161, 225);
+}
+.circle:hover {
+  color: white;
+  background-color: rgb(35, 39, 42);
+}
+.circle:active {
+  background-color: red;
+  color: darkgoldenrod;
+}
