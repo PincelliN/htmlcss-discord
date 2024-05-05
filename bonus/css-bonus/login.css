@@ -74,15 +74,18 @@ main strong {
 /* css footer */
 footer > img {
   width: 50%;
+  margin: 0 25%;
 }
-footer h2,
-footer p {
+footer h2{
   margin: 10px auto;
+}
+footer p{
+  margin: 10px 30px;
 }
 footer i {
   position: relative;
-  right: 100px;
-  bottom: 68px;
+ 
+  bottom: 100px;
   color: black;
   background-color: white;
   font-size: xx-large;
