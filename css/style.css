@@ -178,6 +178,9 @@ footer {
   margin-right: 5px;
   font-size: larger;
 }
+select::after{
+  content: url(../img/ita.png);
+}
 /* footer list */
 footer ul {
   list-style: none;
