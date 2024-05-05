@@ -89,6 +89,9 @@ label{
 .circle > a{
     color: white;
 }
+strong{
+    color: red;
+}
 /* footer */
 footer{
     margin: 30px 20px;
