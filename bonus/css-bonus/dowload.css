@@ -23,9 +23,8 @@ a {
 /* header css */
 /* prima sezione header */
 header {
-  background-color:  rgb(35, 39, 42);
+  background-color: rgb(35, 39, 42);
   font-size: larger;
-
 }
 .login {
   color: white;
@@ -49,65 +48,59 @@ header {
   text-align: end;
 }
 /*  seconda section header */
-.dowload{
-    display: flex;
-    justify-content: center;
+.dowload {
+  display: flex;
+  justify-content: center;
 }
-.dowload  div{
-    width: 45%;
-    min-height: 300px;
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.dowload div {
+  width: 45%;
+  min-height: 300px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.dowload section{
-    padding: 0;
+.dowload section {
+  padding: 0;
 }
-.dowload .circle{
-    background-color: blueviolet;
+.dowload .circle {
+  background-color: blueviolet;
 }
 /* css main */
-.device{
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start; 
+.device {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
-.device div{
-    width: 30%; 
+.device div {
+  width: 30%;
 }
-.device section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 25px;
-    background-color:  rgb(233, 223, 223);
-    margin: 20px;
+.device section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgb(233, 223, 223);
+  margin: 20px;
 }
-.device img{
-    max-width: 100%;
-    margin: 20px auto;
+.device img {
+  max-width: 100%;
+  margin: 20px auto;
 }
-.device .circle{
-    margin-top: 20px;
-}
-.device .down{
-    margin-top: 100px;
-    align-self: self-end;
+.device .circle {
+  margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.device .down {
+  margin-top: 100px;
+  align-self: self-end;
+}
+.device .last {
+    align-items: start /* !important  selettore per dare priorità*/;
+}
+   
+    
 /* css footer 
  css info-page general */
 .info-page {
@@ -145,7 +138,7 @@ footer {
   margin-right: 5px;
   font-size: larger;
 }
-select::after{
+select::after {
   content: url(../img/ita.png);
 }
 /* footer list */
@@ -161,17 +154,6 @@ footer li {
   margin: 10% auto;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* css footer end */
 .end {
