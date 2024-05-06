@@ -16,13 +16,14 @@ a {
   color: black;
   padding: 5px;
   border-radius: 25px;
-  border: 1px solid black;
+  border: none;
   background-color: white;
   font-size: medium;
 }
 /* header css */
 /* prima sezione header */
 header {
+  color: white;
   background-color: rgb(14, 143, 143);
   font-size: larger;
   background-image: url(../img/jumbo.png);
@@ -31,7 +32,6 @@ header {
   background-size: cover;
 }
 .login {
-  color: white;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -56,13 +56,13 @@ header {
 .dowload {
   margin: 7% 25%;
   text-align: center;
-  color: white;
 }
 .dowload > p {
   margin: 30px auto;
 }
 /* css main */
 main {
+  color: black;
   margin-top: 5%;
 }
 main > .main-box {
@@ -86,11 +86,11 @@ main > section:nth-of-type(even) {
   background-size: contain;
   background-repeat: no-repeat;
   width: 60%;
-  min-height: 200px;
+  max-height: 200px;
 }
 .main-box > .server {
   background-image: url(../img/item2.svg);
-  background-position: left;
+  background-position: left; 
 }
 .main-box > .fandom {
   background-image: url(../img/item3.svg);
@@ -128,8 +128,6 @@ main > .end-main {
 .end .circle {
   color: white;
   background-color: rgb(142, 161, 225);
-  border-radius: 25px;
-  border: none;
   padding: 10px;
 }
 /* wave */
@@ -153,6 +151,7 @@ main > .end-main {
   width: calc(100% / 6);
 }
 footer {
+  color: white;
   background-color: rgb(35, 39, 42);
 }
 /* css language */
@@ -167,20 +166,20 @@ footer {
 .language > select {
   border: none;
   background-color: transparent;
-  color: white;
+  color: white; 
   font-size: large;
 }
 .language option {
   background-color: rgb(35, 39, 42);
 }
 .language > i {
-  color: white;
+  /* color: white; */
   margin-right: 5px;
   font-size: larger;
 }
-select::after{
-  content: url(../img/ita.png);
-}
+/* select::after{
+  content:" url(../img/ita.png)";
+} */
 /* footer list */
 footer ul {
   list-style: none;
@@ -192,19 +191,17 @@ li > strong {
 }
 footer li {
   margin: 10% auto;
-  color: white;
 }
 /* css footer end */
 .end {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
   padding: 10px;
 }
+
 .end .circle {
-  color: white;
-  border-radius: 25px;
+  color: white; 
   padding: 5px;
   background-color: rgb(142, 161, 225);
 }
@@ -212,7 +209,4 @@ footer li {
   color: white;
   background-color: rgb(35, 39, 42);
 }
-.circle:active {
-  background-color: red;
-  color: darkgoldenrod;
-}
+
